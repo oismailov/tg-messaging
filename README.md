@@ -9,6 +9,7 @@ Also service pushed all logs to another queue to keep track of all history
 - clone repository to your local machine.
 - cd to project directory
 - run `composer install`
+- copy `.env.example to .env` file
 - run `php artisan serve` to start local php server
 - open(download if you don't have it yet) api testing tool (postman for example)
 - send `POST` api request to url `http://127.0.0.1:8000/api/message` with body
