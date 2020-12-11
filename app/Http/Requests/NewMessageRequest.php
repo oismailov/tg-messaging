@@ -20,7 +20,7 @@ class NewMessageRequest extends FormRequest
     {
         return [
             'sender' => 'required|string|max:100|min:1',
-            'receiver' => 'required|string|max:100|min:1',
+            'receiver' => 'required|email|max:100|min:1',
             'body' => 'required|string|max:255|min:1'
         ];
     }
